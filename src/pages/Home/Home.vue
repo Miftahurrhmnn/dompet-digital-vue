@@ -112,8 +112,14 @@ const transferSaldo = () => {
                     </button>
                 </div>
             </div>
+
+            <footer>
+                <p>© 2026 Miftahurrahman. All Rights Reserved.</p>
+            </footer>
         </div>
+        
     </main>
+
 </template>
 
 <style scoped>
@@ -122,7 +128,7 @@ const transferSaldo = () => {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: #f8fafc;
     font-family: 'Inter', 'Segoe UI', sans-serif;
 }
@@ -131,6 +137,14 @@ const transferSaldo = () => {
     width: 100%;
     max-width: 420px;
     padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 24px; /* Mengatur jarak antara tombol menu dan footer */
+    font-size: 0.82rem;
+    color: #94a3b8;
+    letter-spacing: 0.3px;
 }
 
 /* Styling Kartu */
